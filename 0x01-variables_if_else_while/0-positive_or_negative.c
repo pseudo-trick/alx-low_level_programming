@@ -6,15 +6,19 @@
  */
 int main(void)
 {
-	int x=5;
+	int x=0;
 
-	if (x == 5)
+	if (x == 0)
 	{
-		printf("I am equal");
+		printf("i am zero");
+	}
+	else if (x > 0)
+	{
+		printf("i am positive");
 	}
 	else
 	{
-		printf("not equal");
+		printf("i am negative");
 	}
 	return (0);
 }
