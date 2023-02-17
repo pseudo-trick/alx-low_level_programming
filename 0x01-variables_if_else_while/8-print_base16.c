@@ -14,6 +14,7 @@ int main(void)
 {
 	int c;
 	char d;
+
 	c = 0;
 	d = 'a';
 	while (c < 10)

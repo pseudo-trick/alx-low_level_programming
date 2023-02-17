@@ -3,7 +3,7 @@
 
 /* betty style doc for function main goes there */
 /**
-i * main - Entry point
+ * main - Entry point
  *
  * Return: Always 0 (success)
  */
@@ -11,6 +11,7 @@ i * main - Entry point
 int main(void)
 {
 	char c;
+
 	c = 'z';
 	while (c >= 'a')
 	{
