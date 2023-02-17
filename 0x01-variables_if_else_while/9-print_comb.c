@@ -12,16 +12,16 @@
 
 int main(void)
 {
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-	if (n < 0)
-		printf("%d is negative\n", n);
-	else if (n > 0)
-		printf("%d is positive\n", n);
-	else 
-		printf("%d is zero\n", n);
+	int x;
+	for (x = 0; x < 10; x++)
+	{
+		putchar(x + '0');
+		if (x < 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	}
+	putchar('\n');
 	return (0);
 }
